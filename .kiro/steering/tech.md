@@ -1,11 +1,11 @@
 # Tech Stack
 
 - Frontend: Next.js 15+ (App Router), TypeScript, Tailwind CSS
-- Backend / ML: FastAPI (Python) or Next.js route handlers + PyTorch / Hugging Face
-- Models: Start with a small VAE or open neural codec (CompressAI, OneDC-style, or simple autoencoder). Keep inference latency reasonable.
-- Deployment: Vercel (web) + Railway or Fly (if separate Python API)
+- Compression demo: Start with client-side simulation. Later swap in a tiny VAE or call a lightweight generative endpoint.
+- Reconstruction: Show original vs reconstructed side-by-side. Prefer perceptual quality language over pure pixel metrics.
+- Deployment: Vercel
 
 **Constraints**:
-- Always show original vs reconstructed side-by-side.
-- Prefer perceptual quality over pure pixel metrics when possible.
-- Cite the Sloot story in the UI.
+- Always show original vs reconstructed.
+- Cite the Sloot story and modern diffusion/VAE research in the UI.
+- Keep the demo reliable (no heavy model download required for basic experience).
